@@ -1,1 +1,57 @@
-<router-outlet></router-outlet>
+<mat-sidenav-container class="example-container">
+  <mat-sidenav #sidenav class="sidenav">
+    <mat-nav-list role="list" fxLayoutAlign="center center" fxLayout="column">
+      <mat-list-item
+        role="listitem"
+        fxLayoutAlign="center center"
+        routerLink="/home"
+        (click)="sidenav.close()"
+        class="matlist"
+        >Home</mat-list-item
+      >
+      <mat-list-item
+        role="listitem"
+        fxLayoutAlign="center center"
+        routerLink="/portfolios"
+        (click)="sidenav.close()"
+        class="matlist"
+        >Portfolios</mat-list-item
+      >
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar class="res" fxLayout="row" role="heading">
+      <button
+        (click)="sidenav.toggle()"
+        mat-icon-button
+        class="example-icon"
+        aria-label="Example icon-button with menu icon"
+      >
+        <mat-icon>menu</mat-icon>
+      </button>
+
+      <ul role="list" fxLayout="row" fxLayoutGap="3.5rem">
+        <li fxHide.lt-md>
+          <a
+            role="listitem"
+            routerLink="/home"
+            routerLinkActive="active"
+            class="nav-list"
+            >Home</a
+          >
+        </li>
+        <li fxHide.lt-md>
+          <a
+            role="listitem"
+            routerLink="/portfolios"
+            routerLinkActive="active"
+            class="nav-list"
+            >Portfolios</a
+          >
+        </li>
+      </ul>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

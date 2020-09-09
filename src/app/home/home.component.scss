@@ -1,0 +1,41 @@
+.main {
+  //background-image: url(../../assets/bilal-o-A6_3spmvln0-unsplash.jpg);
+  background-repeat: no-repeat;
+  //background-position: center;
+  background-color: orange;
+  background-size: cover;
+  min-height: 100vh;
+
+  &-content {
+    color: white;
+    font-size: 6rem;
+  }
+
+  &-card {
+    width: 100%;
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
+
+.main2 {
+  //background-image: url(../../assets/bilal-o-A6_3spmvln0-unsplash.jpg);
+  background-repeat: no-repeat;
+  //background-position: center;
+  background-color: blue;
+  background-size: cover;
+  min-height: 50vh;
+
+  &-content {
+    color: white;
+    font-size: 6rem;
+  }
+
+  &-card {
+    width: 100%;
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}

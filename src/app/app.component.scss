@@ -1,0 +1,56 @@
+mat-sidenav-container,
+mat-sidenav,
+mat-sidenav-content {
+  height: 100%;
+}
+
+.res {
+  position: absolute;
+  background-color: transparent;
+  //z-index: 20;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+
+a:hover {
+  //color: #ff8671;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.sidenav {
+  width: 20rem;
+  background: rgba(128, 128, 128, 0.774);
+}
+
+.example-icon {
+  color: white;
+}
+
+.matlist {
+  color: white;
+}
+
+mat-list-item:hover {
+  //color: #ff8671;
+  color: black;
+}
+
+.example-icon1 {
+  margin-left: 2rem;
+}
+
+.active {
+  border-bottom: 2px white solid;
+}

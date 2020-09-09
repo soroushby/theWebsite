@@ -73,9 +73,9 @@
 }
 
 .main2 {
-  min-height: 50vh;
+  min-height: 60vh;
   background-color: #f7f7f7;
-
+  flex-wrap: wrap;
   &-icon {
     width: 10rem;
     height: 10rem;

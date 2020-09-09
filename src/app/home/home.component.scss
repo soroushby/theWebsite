@@ -95,32 +95,42 @@
   }
 
   &-header {
-    margin-top: 3rem;
+    //margin-top: 3rem;
     // border-bottom: 0.2rem solid rgba(0, 0, 0, 0.726);
     color: black;
     font-size: 3rem;
     letter-spacing: 1rem;
     font-weight: 200;
   }
+
+  &-quote {
+    font-size: 2rem;
+  }
 }
 
-// .main2 {
-//   //background-image: url(../../assets/bilal-o-A6_3spmvln0-unsplash.jpg);
-//   background-repeat: no-repeat;
-//   //background-position: center;
-//   background-color: blue;
-//   background-size: cover;
-//   min-height: 50vh;
+.main3 {
+  background-image: linear-gradient(
+      to right,
+      rgba(129, 129, 129, 0.658),
+      #f7f7f7ab
+    ),
+    url("../../assets/pexels-daniel-absi-952670.jpg");
+  background-repeat: no-repeat;
+  //background-position: center;
 
-//   &-content {
-//     color: white;
-//     font-size: 6rem;
-//   }
+  background-size: cover;
+  min-height: 70vh;
 
-//   &-card {
-//     width: 100%;
-//     background-color: transparent;
-//     box-shadow: none;
-//     border-radius: 0;
-//   }
-// }
+  &-content {
+    color: black;
+    font-size: 1.6rem;
+  }
+
+  &-card {
+    width: 50rem;
+    height: 35rem;
+    background-color: #f7f7f7;
+    box-shadow: 0rem 0.5rem 4rem black;
+    border-radius: 10rem;
+  }
+}

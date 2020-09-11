@@ -108,29 +108,55 @@
   }
 }
 
+// .main3 {
+//   background-image: linear-gradient(
+//       to right,
+//       rgba(129, 129, 129, 0.658),
+//       #f7f7f7ab
+//     ),
+//     url("../../assets/pexels-daniel-absi-952670.jpg");
+//   background-repeat: no-repeat;
+//   //background-position: center;
+
+//   background-size: cover;
+//   min-height: 70vh;
+
+//   &-content {
+//     color: black;
+//     font-size: 1.6rem;
+//   }
+
+//   &-card {
+//     width: 50rem;
+//     height: 35rem;
+//     background-color: #f7f7f7;
+//     box-shadow: 0rem 0.5rem 4rem black;
+//     border-radius: 10rem;
+//   }
+// }
+
 .main3 {
   background-image: linear-gradient(
-      to right,
-      rgba(129, 129, 129, 0.658),
-      #f7f7f7ab
-    ),
-    url("../../assets/pexels-daniel-absi-952670.jpg");
+    rgba(0, 0, 0, 0.404),
+    rgba(197, 111, 111, 0)
+  );
+
   background-repeat: no-repeat;
-  //background-position: center;
-
+  background-position: center;
   background-size: cover;
-  min-height: 70vh;
+  min-height: 50vh;
 
-  &-content {
-    color: black;
-    font-size: 1.6rem;
+  &-grid-list {
+    font-size: 2rem;
+    height: 100%;
   }
 
   &-card {
-    width: 50rem;
-    height: 35rem;
-    background-color: #f7f7f7;
-    box-shadow: 0rem 0.5rem 4rem black;
-    border-radius: 10rem;
+    //color: white;
+    width: 60%;
+    height: 70%;
+
+    background-color: transparent;
+    box-shadow: none;
   }
 }

@@ -12,13 +12,13 @@ mat-sidenav-content {
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
   list-style-type: none;
 }
 
 a:hover {
   //color: #ff8671;
-  color: black;
+  color: gray;
 }
 
 li {
@@ -35,7 +35,7 @@ li {
 }
 
 .example-icon {
-  color: white;
+  color: black;
 }
 
 .matlist {
@@ -52,5 +52,5 @@ mat-list-item:hover {
 }
 
 .active {
-  border-bottom: 2px white solid;
+  border-bottom: 2px black solid;
 }

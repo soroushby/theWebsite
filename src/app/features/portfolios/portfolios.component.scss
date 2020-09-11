@@ -1,0 +1,30 @@
+.main {
+  //background-image: url(../../assets/bilal-o-A6_3spmvln0-unsplash.jpg);
+  //background-repeat: no-repeat;
+  //background-position: center;
+  //background-color: white;
+  background-image: linear-gradient(to right, white, gray);
+  background-size: cover;
+  min-height: 100vh;
+
+  &-content {
+    color: black;
+    font-size: 2rem;
+  }
+
+  &-card {
+    width: 100%;
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
+
+.img {
+  background-image: url(../../../assets/soccer.png);
+  background-size: cover;
+  background-position: center;
+  width: 110rem;
+  height: 50rem;
+  margin-top: 2rem;
+}

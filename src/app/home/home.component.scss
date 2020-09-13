@@ -1,43 +1,37 @@
-// .main {
-//   //background-image: url(../../assets/bilal-o-A6_3spmvln0-unsplash.jpg);
-//   background-repeat: no-repeat;
-//   //background-position: center;
-//   background-color: orange;
-//   background-size: cover;
-//   min-height: 100vh;
-
-//   &-content {
-//     color: white;
-//     font-size: 6rem;
-//   }
-
-//   &-card {
-//     width: 100%;
-//     background-color: transparent;
-//     box-shadow: none;
-//     border-radius: 0;
-//   }
-// }
 .main {
-  // background-image: url(../../assets/charles-deluvio-Lks7vei-eAg-unsplash.jpg);
-  // background-repeat: no-repeat;
-  // background-size: cover;
+  background-image: url(../../assets/3599402256_c4e29b2b24_o.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   position: relative;
 
-  &-bg-video {
-    position: absolute;
-    top: 0;
-    left: 0;
+  // &-bg-video {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   height: 100%;
+  //   z-index: -1;
+  &-grid-list {
+    font-size: 4rem;
     height: 100%;
-    z-index: -1;
-
-    &__content {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-    }
   }
+
+  &-card {
+    width: 70%;
+    height: 80%;
+    background-color: blue;
+    box-shadow: none;
+  }
+
+  // &-card-title{
+  //   font-size:3rem;
+  // }
+
+  // &__content {
+  //   height: 100%;
+  //   width: 100%;
+  //   object-fit: cover;
+  // }
 
   &-btn:link,
   &-btn:visited {
@@ -73,7 +67,7 @@
 }
 
 .main2 {
-  min-height: 60vh;
+  min-height: 70vh;
   background-color: #f7f7f7;
   flex-wrap: wrap;
   &-icon {
@@ -95,8 +89,6 @@
   }
 
   &-header {
-    //margin-top: 3rem;
-    // border-bottom: 0.2rem solid rgba(0, 0, 0, 0.726);
     color: black;
     font-size: 3rem;
     letter-spacing: 1rem;
@@ -108,33 +100,6 @@
   }
 }
 
-// .main3 {
-//   background-image: linear-gradient(
-//       to right,
-//       rgba(129, 129, 129, 0.658),
-//       #f7f7f7ab
-//     ),
-//     url("../../assets/pexels-daniel-absi-952670.jpg");
-//   background-repeat: no-repeat;
-//   //background-position: center;
-
-//   background-size: cover;
-//   min-height: 70vh;
-
-//   &-content {
-//     color: black;
-//     font-size: 1.6rem;
-//   }
-
-//   &-card {
-//     width: 50rem;
-//     height: 35rem;
-//     background-color: #f7f7f7;
-//     box-shadow: 0rem 0.5rem 4rem black;
-//     border-radius: 10rem;
-//   }
-// }
-
 .main3 {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.404),
@@ -144,7 +109,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 50vh;
+  min-height: 40vh;
 
   &-grid-list {
     font-size: 2rem;

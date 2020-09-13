@@ -1,40 +1,6 @@
-<!-- <div class="main" fxLayoutAlign="center center">
-  <div fxLayoutAlign="center center">
-    <mat-card class="main-card">
-      <mat-card-content class="main-content">
-        <p>
-          Lorem ipsum dolor, sit amet consectetur <br />
-          Lorem ipsum dolor, sit amet consectetur
-        </p>
-      </mat-card-content>
-    </mat-card>
-  </div>
-</div>
-
-<div class="main2" fxLayoutAlign="center center">
-  <div fxLayoutAlign="center center">
-    <mat-card class="main2-card">
-      <mat-card-content class="main2-content">
-        <p>
-          Lorem ipsum dolor, sit amet consectetur <br />
-          Lorem ipsum dolor, sit amet consectetur
-        </p>
-      </mat-card-content>
-    </mat-card>
-  </div>
-</div> -->
-
-<div class="main" fxLayout="row">
+<!-- <div class="main" fxLayout="row">
   <div fxLayoutAlign="center center" fxLayout="column" fxFlex>
-    <div class="main-bg-video">
-      <video playsinline autoplay muted loop class="main-bg-video__content">
-        <source
-          src="../../assets/coverr-a-girl-is-studing-using-a-book-and-a-pc-6707.mp4"
-          type="video/mp4"
-        />
-        Your browser isn't supported!
-      </video>
-    </div>
+
 
     <h1 class="mat-display-4" fxLayoutAlign="center center">
       ensuring your future...
@@ -47,6 +13,43 @@
       >
     </div>
   </div>
+</div> -->
+
+<div class="main">
+  <mat-grid-list class="main-grid-list" cols="2" fxHide.lt-md rowHeight="2:1">
+    <mat-grid-tile>
+      <mat-card
+        class="main-card"
+        fxLayoutAlign="center center"
+        fxLayoutGap="1rem"
+        fxLayout="column"
+      >
+        <div class="main-card-title" fxFlexAlign="center">
+          ensuring your future...
+        </div>
+
+        <mat-card-content class="main-grid-list">
+          <div class="main-btn-position" fxLayoutAlign="start center">
+            <a
+              href="https://www.instagram.com/emit.group/"
+              class="main-btn main-btn-white"
+              >OUR INSTAGRAM &rarr;</a
+            >
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+      <mat-card
+        class="main-card"
+        fxLayoutAlign="start center "
+        fxLayoutGap="1rem"
+        fxLayout="column"
+      >
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
 </div>
 
 <div class="main2" fxLayout="column" fxLayoutGap="5rem">
@@ -117,31 +120,6 @@
   </div>
 </div>
 
-<!-- <div
-  class="main3"
-  fxLayoutAlign="center center"
-  fxLayout="row"
-  fxLayoutGap="5rem"
-  fxLayout.lt-md="column"
->
-  <mat-card class="main3-card" fxLayoutAlign="center center">
-    <mat-card-content class="main3-content">
-      <p>
-        Lorem ipsum dolor, sit amet consectetur <br />
-        Lorem ipsum dolor, sit amet consectetur
-      </p>
-    </mat-card-content>
-  </mat-card>
-  <mat-card class="main3-card" fxLayoutAlign="center center">
-    <mat-card-content class="main3-content">
-      <p>
-        Lorem ipsum dolor, sit amet consectetur <br />
-        Lorem ipsum dolor, sit amet consectetur
-      </p>
-    </mat-card-content>
-  </mat-card>
-</div> -->
-
 <div class="main3">
   <mat-grid-list class="main3-grid-list" cols="2" fxHide.lt-md rowHeight="2:1">
     <mat-grid-tile>
@@ -176,12 +154,6 @@
         </mat-card-header>
 
         <mat-card-content class="main3-grid-list">
-          <!-- <div fxLayoutGap="1rem" fxLayoutAlign="center center ">
-          <img
-            src="../../assets/phone-line (1).svg"
-            alt="computer icon"
-          /><span>+1 888888888</span>
-        </div> -->
           <div fxLayoutGap="1rem" fxLayoutAlign="start center ">
             <img
               src="../../assets/mail-line (1).svg"
